@@ -2,8 +2,6 @@ FROM python:2.7
 
 ENV DockerHOME=/home/app/webapp
 
-# Set environment variables
-
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
