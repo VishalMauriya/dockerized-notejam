@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-   image: vishalm04/notejam
+    image: vishalm04/notejam
     ports:
       - "8000:8000"
     depends_on:
